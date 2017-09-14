@@ -1,0 +1,27 @@
+{
+  "name": "delph",
+  "version": "1.0.0",
+  "description": "vanilla js webcomponents router",
+  "main": "delph.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerico/delph.git"
+  },
+  "keywords": [
+    "js",
+    "router",
+    "npm"
+  ],
+  "author": "garethrobertlee@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cerico/delph/issues"
+  },
+  "homepage": "https://github.com/cerico/delph#readme"
+}
