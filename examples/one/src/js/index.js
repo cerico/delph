@@ -1,4 +1,4 @@
-import { Delph } from './delph'
+import { Delph } from 'delph'
 import { routes } from './routes'
 
 export class Index {

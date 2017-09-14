@@ -25,6 +25,7 @@
     "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
+    "delph": "^1.0.0",
     "express": "^4.15.4",
     "path": "^0.12.7"
   }
