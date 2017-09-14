@@ -1,0 +1,31 @@
+{
+  "name": "how-to-js-router",
+  "version": "1.0.0",
+  "description": "client side js router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack/webpack.config.js --open",
+    "build": "webpack --config webpack/webpack.prod.config.js && npm run copy-files",
+    "copy-files": "cp src/index.html dist && cp -r views dist",
+    "prod": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cerico/how-to-js-router.git"
+  },
+  "author": "garethrobertlee@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cerico/how-to-js-router/issues"
+  },
+  "homepage": "https://github.com/cerico/how-to-js-router#readme",
+  "devDependencies": {
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  }
+}
